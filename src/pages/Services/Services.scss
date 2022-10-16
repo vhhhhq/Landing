@@ -1,0 +1,87 @@
+.services-section {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    .services {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        .services-logo {
+            display: flex;
+            width: 100%;
+            height: 30vh;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .services-block {
+            display: flex;
+            margin-left: 68px;
+            padding: 50px 0px;
+            align-items: center;
+            flex-direction: column;
+            background: rgba(246, 246, 246, 0.8);
+
+            .services-title {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .services-title-one {
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 46px;
+                    line-height: 69px;
+                    width: 30%;
+                    color: #242527;
+                } 
+                .services-title-two {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 27px;
+                    width: 43%;
+                    color: #C4C4C4;
+                }
+            }
+            .services-card {
+                display: flex;
+                align-items: center;
+                height: 100%;
+
+                .card-pexel {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 100%;
+                    padding:0px 40px;
+                    align-items: flex-start;
+                }
+                .card-pexel h4 {
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 42px;
+                    align-items: flex-start;
+                    color: #242527;
+                }
+                .card-pexel p {
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #C4C4C4;
+                    width: 85%;
+                }
+            }
+
+        }
+        
+    }
+    
+}

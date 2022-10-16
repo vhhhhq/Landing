@@ -1,0 +1,49 @@
+.find {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+    
+
+    .find-section {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px 150px;
+
+        
+        .find-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 250px;
+
+
+            .find-title-h3 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 46px;
+                line-height: 69px;
+                color: #242527;
+            }
+            .find-title-p {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 27px;
+                color: #C4C4C4;
+                width: 90%;
+            }
+        }
+    }
+
+}
