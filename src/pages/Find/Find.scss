@@ -27,7 +27,7 @@
 
 
             .find-title-h3 {
-                font-family: 'Poppins';
+                font-family: 'Poppins', sans-serif;
                 font-style: normal;
                 font-weight: 600;
                 font-size: 46px;
@@ -35,13 +35,65 @@
                 color: #242527;
             }
             .find-title-p {
-                font-family: 'Poppins';
+                font-family: 'Poppins', sans-serif;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 18px;
                 line-height: 27px;
                 color: #C4C4C4;
                 width: 90%;
+            }
+
+        }
+
+        .find-card {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+            gap: 50px;
+
+
+            .find-cards {
+                display: flex;
+                flex-direction: column;
+
+                .find-icon-one {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: rgba(35, 135, 192, 0.3);
+                    border-radius: 50px;
+                    width: 94px;
+                    height: 94px;    
+                    
+                    .find-icon-two {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 74px;
+                        height: 74px;
+                        background: #2387C0;
+                        border-radius: 50px;
+                    }
+                }
+
+                .find-cards-title {
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 36px;
+                    color: #242527;
+                }
+                .find-cards-text {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #C4C4C4;
+                }
             }
         }
     }
